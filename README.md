@@ -1,4 +1,4 @@
-# Credi Risk Analysis
+# Credit Risk Analysis
 
 ## Purpose:
 The aim of this analysis is to apply skills in data preparation, statistical reasoning, and machine learning to solve credit card risk. Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, I will use imbalanced-learn and scikit-learn libraries to employ the following techniques to train and evaluate models with unbalanced classes:
@@ -53,4 +53,4 @@ BalancedRandomForestClassifier and EasyEnsembleClassifier models reduced bias an
 Precision scores were low for high risk loan and high for low risk ones. Recall scores were improved with 0.7 and 0.87 for high risk and low risk respectively.
 
 ## Summary: 
-Based on the performance of these models,  BalancedRandomForestClassifier and EasyEnsembleClassifier models should be used to predict credit risk.I would recommend to use the EasyEnsembleClassifier model as it was the best model in terms of balanced score accuracy and recall scores.
+Based on the performance of these models, BalancedRandomForestClassifier and EasyEnsembleClassifier models should be used to predict credit risk. I would recommend to use the EasyEnsembleClassifier model as it was the best model in terms of balanced score accuracy and recall scores.
