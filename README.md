@@ -11,14 +11,17 @@ The aim of this analysis is to apply skills in data preparation, statistical rea
 ## Results:
 ### Models' Performance Evaluation:
 
-1. Oversampling the data using the RandomOverSampler
+1. Oversampling the data using the RandomOverSampler:
+  
+   Balanced accuracy score: 0.67
+  
+  ![ros](images/ros.png)
 
-Balanced accuracy score: 0.67
-![ros](ros.png)
+2. Oversampling the data using the SMOTE:
 
-2. Oversampling the data using the SMOTE 
-Balanced accuracy score: 0.66
-![smote](smote.png)
+   Balanced accuracy score: 0.66
+   
+  ![smote](images/smote.png)
 
 3. Undersampling the data using the ClusterCentroids algorithm
 
